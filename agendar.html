@@ -1,0 +1,126 @@
+<!Doctype HTML>
+<html>
+<head>
+ <title>agendar</title>
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+   <header>
+       <IMG class="img1" src="img/logo2.jpg" ></IMG>
+       <br><br><br>
+      <h1>Clinica Santa Cruz</h1>
+      
+      <br><br><br>
+ <nav>
+    <table class="tabla1">
+    <tr>
+        <td><img class="img2" src="img/historia.jfif"></td>
+        <td><img class="img3" src="img/estructura.png"></td>
+        <td><img class="img4" src="img/agendar.png"></td>
+        <td><img class="img5" src="img/atencion.jfif"></td>
+        <td><img class="img6" src="img/sabias.png"></td>
+    </tr>
+    <tr>
+        <td><h3><a href="index.html">Historia</a></h3></td>
+        <td><h3><a href="estructura.html">Estructura</a></h3></td>
+        <td><h3><a href="agendar.html">Agendar</a></h3></td>
+        <td><h3><a href="atencion.html">Atención médica</a></h3></td>
+        <td><h3><a href="sabias.html">Sabías qué!</a></h3></td>
+    </tr>
+</table>
+ </nav>
+ </header>
+ <br><br><br><br><br><br><br><br><br><br><br>
+<h2>Forma de agendar actualmente</h2><br><br>
+ <p class="p2">Para agendar una cita actualmente, se requiere que el paciente proporcione cierta información personal y médica de manera previa. 
+    Este procedimiento busca asegurar que todos los datos necesarios esten registrados antes de otorgar una cita, permitiendo asi una atención mas ordenada
+     y eficiente..... En seguida mostramos los pasos que sigue la clinica</p><br><br>
+    <body>
+        <div id="Contenido">
+            <h4>1.- Primero se necesita tu nombre completo</h4>
+            <h4>2.- Tu numero de expediente</h4>    
+            <h4>3.- Estar dado de alta en la clinica</h4>
+            <h4>4.- Tu curp</h4>
+            <h4>5.- Enfermedad cronica que padece</h4>
+            <h4>6.- Tu Peso y Talla</h4>
+            <h4>7.- Y tipo de sangre</h4>
+        </div>
+<br>
+<h2>Propuesta</h2><br>
+<p class="p2">Mediante nuestra propuesta, la idea es simplificar el sistema mediante un formulario digital que permita capturar la informacion ecensial de forma
+    clara y rápida. Esto no solo ahorraria tiempo al pacienten y al personal medico, sino que también reduciria errores y facilitaria el seguimiento de la información 
+</p><br>
+    <body>
+        <div id="Contenido">
+            <form class="formulario">
+                <fieldset>
+                    <legend>Formulario</legend>
+                    <label for="Nombre">Nombre Completo</label>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Ingresa la informacion" required="true">
+                    <br>
+                    <br>
+                    <label for="Curp">Curp</label>
+                    <input type="text" name="Curp" id="Curp" placeholder="Ingresa la informacion" required="true">
+                    <br>
+                    <br>
+                    <label for="Num">Numero de Expediente</label>
+                    <input type="number" name="Num" id="Num" placeholder="Ingresa el numero" required="true">
+                    <br>
+                    <br>
+                    <label for="Peso">Ingrese su Peso</label>
+                    <input type="number" name="Peso" id="Peso" placeholder="Ingresa solo numeros" required="true">
+                    <br>
+                    <br>
+                    <label for="Talla">Ingrese su Talla</label>
+                    <input type="number" name="Talla" id="Talla" placeholder="Ingresa solo numeros" required="true">
+                    <br>
+                    <br>
+                    <label for="Enfermedad">Que Enfermedad Padece:</label>
+                    <input type="text" name="Enfermedad" id="Enfermedad" placeholder="Ingresa la informacion" required="true">
+                    <br>
+                    <br>
+                    <label for="Talla">Telefono:</label>
+                    <input type="number" name="Telefono" id="Telefono" placeholder="Ingresa solo numeros" required="true">
+                    <br>
+                    <br>
+                    <label for="Fecha">Fecha de la Cita:</label>
+                    <input type="date" name="Fecha" id="Fecha" placeholder="Ingresa solo numeros" required="true">
+                    <br>
+                    <br>
+                    <label for="Hora">Hora de la Cita:</label>
+                    <input type="time" name="Hora" id="Hora" placeholder="Ingresa solo numeros" required="true">
+                    <br>
+                    <br>
+                    <button type="button" onclick="Agendar()">Agendar</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+    <script>
+        function Agendar(){
+            alert("Cita Agendada!");
+        }
+    </script>
+<br><br><br>
+
+      <section id="contacto">
+<footer>
+    <IMG class="img8" SRC="IMG/llamada.png"></IMG></H3></TD>
+     <IMG class="img9" SRC="IMG/whatsapp.png"></IMG></H3></TD>
+     <IMG class="img10" SRC="IMG/facebook.png"></IMG></H3></TD>
+     <IMG class="img11" SRC="IMG/instagram.jfif"></IMG></H3></TD>
+     <IMG class="img12" SRC="IMG/twitter.png"></IMG></H3></TD>
+    <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
+    <p>Categoria: practicas en JavaScript</p><br>
+    <p>Emiliano Chávez Hernández<br>
+    Julio Daniel Flores Pérez<br>
+    Heidi Kenia Marín Rodriguez<br>
+    Janet PérezMartínez<br>
+    Isabela Robles Cardelas<br>
+    Diana Gricelda Sanchéz Pérez<br><br>
+    Equipo: 6</p>
+     </footer>
+     </section>
+     
+</body>
+</html>
